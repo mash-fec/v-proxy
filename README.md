@@ -44,7 +44,6 @@ from root dir - npm install (dependencies)
 from root dir - npm run server (server)
 (open http://localhost:3005/ to view all services together)
 
-
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
