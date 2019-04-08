@@ -1,0 +1,38 @@
+.wrapper {
+  background : red;
+  height:80vh;
+  width:100%;
+  display: flex;
+  }
+
+
+  .rightview{
+    background: green;
+    display:flex;
+     flex-direction: column;
+     width:50%;
+    height:100%
+  }
+
+
+  .leftview{
+    background: yellow;
+    background-size: 100% 100%;
+    border: white solid 1px;
+    width:50%;
+    height:100%
+  }
+
+  .rightrow{
+    display:flex;
+
+
+  }
+  .rightchild{
+    background: purple;
+    height:100%;
+    width:50%;
+    border: white solid 1px;
+    background-size: 100% 100%;
+
+  }
