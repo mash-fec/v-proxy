@@ -16,8 +16,34 @@
 1. [Development](#development)
 
 ## Usage
+from services/morehomes dir - npm install (dependencies)
+from services/morehomes dir - npm run webpack (create bundle.js)
+from services/morehomes dir - npm run seedDb (if db empty)
+from services/morehomes dir - npm run start (server)
+(open http://localhost:3000/ to view service)
 
-> Some usage instructions
+from services/reviews dir - npm install (dependencies)
+from services/reviews dir - npm run react-dev (create bundle.js)
+from services/reviews dir - npm run seed (if db empty)
+from services/reviews dir - npm run server (server)
+(open http://localhost:3002/ to view service)
+
+from services/reviews dir - npm install (dependencies)
+from services/reviews dir - npm run client (create bundle.js)
+from services/reviews dir - npm run seed (if db empty)
+from services/reviews dir - npm run server (server)
+(open http://localhost:3003/ to view service)
+
+from services/reviews dir - npm install (dependencies)
+from services/reviews dir - npm run webpack (create bundle.js)
+from services/reviews dir - npm run seed (if db empty)
+from services/reviews dir - npm run server (server)
+(open http://localhost:3004/ to view service)
+
+from root dir - npm install (dependencies)
+from root dir - npm run server (server)
+(open http://localhost:3005/ to view all services together)
+
 
 ## Requirements
 

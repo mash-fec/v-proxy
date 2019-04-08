@@ -21,6 +21,8 @@ coverage
 .grunt
 
 # Compiled Dirs (http://nodejs.org/api/addons.html)
-build/
-dist/
+public/bundle.js
+client/dist1/bundle.js
 
+# Passwords
+mysqlPass.js
