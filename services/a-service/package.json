@@ -1,0 +1,56 @@
+{
+  "name": "more-homes-carousel",
+  "version": "",
+  "description": "Carousel for Home Pictures/Description",
+  "author": "Alyssa Cipriano",
+  "license": "",
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "seedDb": "node database/seedingDb.js",
+    "build": "webpack -d --watch",
+    "test": "mocha tests/backendTests.js --exit"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "faker": "^4.1.0",
+    "file-loader": "^3.0.1",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.19",
+    "mongoose-sequence": "^5.0.1",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-slick": "^0.23.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.2.0",
+    "url-loader": "^1.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-styled-components": "^1.10.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "css-loader": "^2.1.1",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "jest": "^24.5.0",
+    "mocha": "^6.0.2",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
