@@ -1,11 +1,31 @@
 const express = require('express');
+const httpProxy = require('http-proxy');
 
 const app = express();
 
 const port = 3005;
 
-app.use(express.static(__dirname + '/../public'));
+const proxy = httpProxy.createProxyServer({});
 
-app.listen(port, () => {
-  console.log('Listening on port: ', port);
+app.use(express.static(__dirname + '/../public'));
+app.use(express.urlencoded({extended: false}));
+
+
+app.get('/house_images', (req, res) => {
+  proxy.web(req, res, {target: 'http://localhost:3003'});
 });
+
+app.get('/description', (req, res) => {
+  proxy.web(req, res, {target: 'http://localhost:3210'});
+});
+
+app.get('/totalReviews', (req, res) => {
+  proxy.web(req, res, {target: 'http://localhost:3004'});
+});
+
+app.get('/morehomes', (req, res) => {
+  proxy.web(req, res, {target: 'http://localhost:3000'});
+});
+
+
+app.listen(port, console.log('Listening on port: ', port));
