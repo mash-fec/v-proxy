@@ -1,8 +1,0 @@
-language: node_js
-node_js:
-  - "10"
-services:
-  - mongodb
-script:
-  - npm run test-backend
-  - npm run test-frontend
