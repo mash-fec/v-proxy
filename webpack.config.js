@@ -5,7 +5,8 @@ module.exports = {
     images: '../fec-services/j-service/client/src/app.jsx',
     descriptions: '../fec-services/m-service/client/index.jsx',
     reviews: '../fec-services/v-service/client/app.jsx',
-    morehomes: '../fec-services/a-service/client/MoreHomes.jsx'
+    morehomes: '../fec-services/a-service/client/MoreHomes.jsx',
+    booking: '../fec-services/m-booking/client/booking.jsx'
   },
   externals: {
     'styled-components': 'styled'
