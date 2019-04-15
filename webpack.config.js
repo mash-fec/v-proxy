@@ -2,6 +2,7 @@ module.exports = {
   mode: 'development',
   entry: {
     vendor: ['styled-components'],
+    nav: '../fec-services/m-nav/client/nav.jsx',
     images: '../fec-services/j-service/client/src/app.jsx',
     descriptions: '../fec-services/m-service/client/index.jsx',
     reviews: '../fec-services/v-service/client/app.jsx',

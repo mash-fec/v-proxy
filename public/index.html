@@ -3,12 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>FEC Mashbnb Proxy</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <div id="nav"></div>
     <div id="images"></div>
-    <div id="descriptions"></div>
-    <div id="app"></div>
-    <div id="booking"></div>
+    <div id="stickycontainer">
+      <div id="booking"></div>
+      <div id="descriptions"></div>
+      <div id="app"></div>
+    </div>
     <div id="morehomes"></div>
 
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
@@ -18,10 +22,11 @@
     <script src="/query.js"></script>
     <script src="/vendor.js"></script>
 
+    <script src="https://s3-us-west-1.amazonaws.com/fecbundlefiles/nav/nav.js"></script>
     <script src="https://s3-us-west-1.amazonaws.com/fecbundlefiles/top+images/images.js"></script>
+    <script src="https://s3-us-west-1.amazonaws.com/fecbundlefiles/booking/booking.js"></script>
     <script src="https://s3-us-west-1.amazonaws.com/fecbundlefiles/house+descriptions/descriptions.js"></script>
     <script src="https://s3-us-west-1.amazonaws.com/fecbundlefiles/reviews/reviews.js"></script>
-    <script src="https://s3-us-west-1.amazonaws.com/fecbundlefiles/booking/booking.js"></script>
     <script src="https://s3-us-west-1.amazonaws.com/fecbundlefiles/more+homes/morehomes.js"></script>
   </body>
 </html>

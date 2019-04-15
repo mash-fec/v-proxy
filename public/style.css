@@ -1,0 +1,10 @@
+#stickycontainer {
+  padding-top: 1%;
+  padding-right: 21%;
+}
+
+#booking {
+  float: right;
+  position: sticky;
+  top: 0;
+}
