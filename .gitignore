@@ -19,12 +19,3 @@ coverage
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
-
-# Compiled Dirs (http://nodejs.org/api/addons.html)
-public/vendor.js
-public/descriptions.js
-public/images.js
-public/morehomes.js
-public/reviews.js
-public/booking.js
-public/nav.js

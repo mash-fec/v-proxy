@@ -11,9 +11,9 @@ app.use(express.static(__dirname + '/../public'));
 app.use(express.urlencoded({extended: false}));
 
 
-// app.get('/house_images', (req, res) => {
-//   proxy.web(req, res, {target: 'http://localhost:3003'});
-// });
+app.get('/house_images', (req, res) => {
+  proxy.web(req, res, {target: 'http://ec2-54-175-40-167.compute-1.amazonaws.com:3003'});
+});
 
 app.get('/description', (req, res) => {
   proxy.web(req, res, {target: 'http://18.220.111.23:3210'});
